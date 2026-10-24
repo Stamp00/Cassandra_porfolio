@@ -98,7 +98,7 @@ p { margin: 0; }
   padding: clamp(32px, 6vw, 72px);
   display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 40px; align-items: center;
 }
-.hero h1 { font-size: clamp(2.8rem, 7vw, 5.6rem); font-weight: 800; letter-spacing: -0.035em; }
+.hero h1 { font-size: clamp(2.3rem, 5vw, 4.3rem); font-weight: 800; letter-spacing: -0.035em; }
 .hero h1 em { font-style: normal; color: var(--merlot-soft); }
 .hero .hello { font-weight: 700; color: var(--merlot-soft); font-size: 1.1rem; margin-bottom: 12px; }
 .hero .tagline { margin-top: 24px; font-size: 1.15rem; max-width: 40ch; color: var(--ink); }

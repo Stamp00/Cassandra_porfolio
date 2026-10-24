@@ -131,7 +131,7 @@ def page(lang):
           <div>
             <p class="hello">{t["hello"]}</p>
             <h1>{t["h1"]}</h1>
-            <p class="tagline"><strong>{t["role"]}</strong> {t["tagline"]}</p>
+            <p class="tagline">{t["tagline"]}</p>
             <div class="actions">
               <a class="btn" href="#work">{t["see_work"]}<span class="dot">{ARROW}</span></a>
               <a class="btn light" href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn<span class="dot">{ARROW}</span></a>
