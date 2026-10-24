@@ -1,0 +1,37 @@
+# Rebuilds the English, Swedish and Finnish pages whenever the text or design changes,
+# so edits made on github.com go live without running anything locally.
+name: Rebuild pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "build/**"
+      - "assets/style.css"
+      - "assets/main.js"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build pages
+        run: python3 build/build.py
+      - name: Commit updated pages
+        run: |
+          if git diff --quiet; then
+            echo "Pages already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html sv/index.html fi/index.html
+          git commit -m "Rebuild pages from content.py"
+          git push
