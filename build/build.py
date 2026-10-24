@@ -129,7 +129,6 @@ def page(lang):
           </div>
           <div class="portrait">
             <img src="{a}img/cassandra.webp" alt="{t["photo_alt"]}" width="489" height="489">
-            <span class="badge"><i></i>{t["badge"]}</span>
           </div>
           <div class="pillars">{pillars}</div>
         </div>

@@ -106,7 +106,7 @@ p { margin: 0; }
 .portrait {
   position: relative; justify-self: center;
   width: min(100%, 380px); aspect-ratio: 4 / 5;
-  border-radius: 200px 200px var(--radius) var(--radius);
+  border-radius: var(--radius-lg);
   overflow: hidden; box-shadow: var(--shadow);
   background: var(--silence);
 }
