@@ -32,9 +32,11 @@ jobs:
       - name: Download text from Google Sheet
         run: |
           id=$(tr -d '[:space:]' < build/sheet_id.txt)
-          curl -fsSL "https://docs.google.com/spreadsheets/d/${id}/export?format=csv&gid=0" -o /tmp/sheet.csv
+          code=$(curl -sSL --retry 3 -w "%{http_code}" "https://docs.google.com/spreadsheets/d/${id}/export?format=csv" -o /tmp/sheet.csv)
+          echo "Google answered HTTP $code"
           # A private sheet returns a sign-in page instead of CSV
-          if ! head -1 /tmp/sheet.csv | grep -q "^What it is,"; then
+          if [ "$code" != "200" ] || ! head -1 /tmp/sheet.csv | sed 's/^\xEF\xBB\xBF//' | grep -q "What it is"; then
+            echo "::error::Could not read the Google Sheet (HTTP $code). Check that it is shared as 'Anyone with the link can view'. First line: $(head -c 120 /tmp/sheet.csv | tr -d '\n')"
             echo "::error::Could not read the Google Sheet. Check that it is shared as 'Anyone with the link can view'."
             exit 1
           fi
