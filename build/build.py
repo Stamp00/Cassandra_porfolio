@@ -29,7 +29,10 @@ def case_media(i, a):
           {img("pohjola-instagram.webp", "phone", "Pohjola-Norden Instagram")}
           {img("nordjobb-reel.webp", "phone", "Nordjobb reel")}
         </div>'''
-    return ""
+    return f'''<div class="case-media blush stack">
+          {img("blog-hitachi.webp", alt="Customer story article")}
+          {img("blog-spot.webp", alt="App launch article")}
+        </div>'''
 
 
 def asset_version():
