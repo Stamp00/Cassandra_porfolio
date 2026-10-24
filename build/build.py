@@ -4,6 +4,7 @@ Run from the repo root:  python3 build/build.py
 """
 from pathlib import Path
 import sys
+import hashlib
 
 sys.path.insert(0, str(Path(__file__).parent))
 from content import CONTENT, BRANDS, LINKEDIN, EMAIL  # noqa: E402
@@ -29,6 +30,14 @@ def case_media(i, a):
           {img("nordjobb-reel.webp", "phone", "Nordjobb reel")}
         </div>'''
     return ""
+
+
+def asset_version():
+    """Short hash of the CSS and JS so browsers fetch the new files after each change."""
+    h = hashlib.sha1()
+    for f in ("assets/style.css", "assets/main.js"):
+        h.update((ROOT / f).read_bytes())
+    return h.hexdigest()[:8]
 
 
 def page(lang):
@@ -96,7 +105,7 @@ def page(lang):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{a}style.css">
+  <link rel="stylesheet" href="{a}style.css?v={asset_version()}">
 </head>
 <body>
   <header class="header">
@@ -224,7 +233,7 @@ def page(lang):
   <footer class="footer">
     <div class="wrap"><span>© 2026 Cassandra Flykt</span><span>{t["footer"]}</span></div>
   </footer>
-  <script src="{a}main.js"></script>
+  <script src="{a}main.js?v={asset_version()}"></script>
 </body>
 </html>
 '''
