@@ -78,6 +78,9 @@ def rows():
     yield "settings.linkedin", "Settings: LinkedIn link", [C.LINKEDIN, "", ""]
     yield "settings.email", "Settings: email (leave empty to hide)", [C.EMAIL or "", "", ""]
     yield "settings.brands", "Settings: brands row (comma separated)", [", ".join(C.BRANDS), "", ""]
+    from images import PICTURES
+    for name, (lab, _) in PICTURES.items():
+        yield f"image.{name}", f"Picture: {lab} (paste a link)", ["", "", ""]
 
 
 def export(out):
@@ -122,6 +125,8 @@ def apply_csv(path):
                 continue
             key = row[idc].strip()
             vals = [row[i].strip() if i < len(row) else "" for i in lc]
+            if key.startswith("image."):
+                continue  # handled by images.py
             if key.startswith("settings."):
                 name = key.split(".", 1)[1]
                 if name == "linkedin" and vals[0]:

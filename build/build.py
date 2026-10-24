@@ -24,8 +24,14 @@ ARROW = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="cur
 TILE_STYLES = ["ice wide", "merlot", "", "blush", "ice"]
 
 
+def pic(f):
+    """Picture path with a short hash, so a swapped picture shows up straight away."""
+    data = (ROOT / "assets" / "img" / f).read_bytes()
+    return f"img/{f}?v={hashlib.sha1(data).hexdigest()[:8]}"
+
+
 def case_media(i, a):
-    img = lambda f, cls="", alt="": f'<img src="{a}img/{f}" class="{cls}" alt="{alt}" loading="lazy">'
+    img = lambda f, cls="", alt="": f'<img src="{a}{pic(f)}" class="{cls}" alt="{alt}" loading="lazy">'
     if i == 0:
         return f'''<div class="case-media combo">
           <div class="browser">{img("peppar-website.webp", alt="pepparcatering.fi")}</div>
@@ -154,9 +160,9 @@ def page(lang):
           </div>
           <a class="showcase" href="#work" aria-label="{t["showcase_label"]}">
             <span class="sc-label">{t["showcase_label"]}</span>
-            <figure class="sc-web"><div class="browser"><img src="{a}img/peppar-website.webp" alt="pepparcatering.fi" width="1200" height="558"></div><figcaption><b>{sc[0][0]}</b> {sc[0][1]}</figcaption></figure>
-            <figure class="sc-phone"><img src="{a}img/pohjola-instagram.webp" alt="Pohjola-Norden Instagram"><figcaption><b>{sc[1][0]}</b> {sc[1][1]}</figcaption></figure>
-            <figure class="sc-phone"><img src="{a}img/nordjobb-reel.webp" alt="Nordjobb reel"><figcaption><b>{sc[2][0]}</b> {sc[2][1]}</figcaption></figure>
+            <figure class="sc-web"><div class="browser"><img src="{a}{pic("peppar-website.webp")}" alt="pepparcatering.fi" width="1200" height="558"></div><figcaption><b>{sc[0][0]}</b> {sc[0][1]}</figcaption></figure>
+            <figure class="sc-phone"><img src="{a}{pic("pohjola-instagram.webp")}" alt="Pohjola-Norden Instagram"><figcaption><b>{sc[1][0]}</b> {sc[1][1]}</figcaption></figure>
+            <figure class="sc-phone"><img src="{a}{pic("nordjobb-reel.webp")}" alt="Nordjobb reel"><figcaption><b>{sc[2][0]}</b> {sc[2][1]}</figcaption></figure>
           </a>
           <div class="pillars">{pillars}</div>
         </div>
@@ -216,7 +222,7 @@ def page(lang):
 
     <section class="section" id="about" style="padding-top:0">
       <div class="wrap about">
-        <div class="photo reveal"><img src="{a}img/cassandra.webp" alt="{t["photo_alt"]}" loading="lazy"></div>
+        <div class="photo reveal"><img src="{a}{pic("cassandra.webp")}" alt="{t["photo_alt"]}" loading="lazy"></div>
         <div class="text reveal">
           <span class="eyebrow">{t["about_eyebrow"]}</span>
           <h2 style="margin-bottom:20px">{t["about_h2"]}</h2>

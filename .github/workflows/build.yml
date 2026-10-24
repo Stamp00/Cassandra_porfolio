@@ -1,4 +1,4 @@
-# Keeps the site in sync with the Google Sheet that holds all the text.
+# Keeps the site in sync with the Google Sheet that holds all the text and picture links.
 # Every 10 minutes it downloads the Sheet, rebuilds the English, Swedish and Finnish
 # pages, and commits them if anything changed. It also runs when code is pushed.
 name: Rebuild pages
@@ -40,16 +40,20 @@ jobs:
             exit 1
           fi
           tr -d '\r' < /tmp/sheet.csv > build/content.csv
+      - name: Swap in new pictures from the Sheet
+        run: |
+          pip install --quiet pillow
+          python3 build/images.py
       - name: Build pages
         run: python3 build/build.py
       - name: Commit updated pages
         run: |
-          git add build/content.csv index.html sv/index.html fi/index.html
+          git add build/content.csv build/images.json assets/img index.html sv/index.html fi/index.html
           if git diff --cached --quiet; then
             echo "Nothing changed"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update text from Google Sheet"
+          git commit -m "Update text and pictures from Google Sheet"
           git push
