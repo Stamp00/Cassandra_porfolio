@@ -151,3 +151,12 @@ Footer text,Made with care in Finland,Byggd med omsorg i Finland,Tehty huolella 
 LinkedIn link,https://www.linkedin.com/in/cassandra-flykt/,,,settings.linkedin
 Email (leave empty to hide),,,,settings.email
 Brands row (comma separated),"Pohjola-Norden, Kårkaféerna, Peppar Catering, Iittala",,,settings.brands
+,,,,
+13. PICTURES (paste a link in the English column),,,,
+About: photo of Cassandra,,,,image.cassandra
+Header + Project 1: website screenshot,,,,image.peppar-website
+Project 1: phone screenshot,,,,image.peppar-instagram
+Header + Project 2: first phone screenshot,,,,image.pohjola-instagram
+Header + Project 2: second phone screenshot,,,,image.nordjobb-reel
+Project 3: first article screenshot,,,,image.blog-hitachi
+Project 3: second article screenshot,,,,image.blog-spot
