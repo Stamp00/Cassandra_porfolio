@@ -28,16 +28,14 @@ def case_media(i, a):
           {img("pohjola-instagram.webp", "phone", "Pohjola-Norden Instagram")}
           {img("nordjobb-reel.webp", "phone", "Nordjobb reel")}
         </div>'''
-    return f'''<div class="case-media blush combo">
-          <div style="display:grid;gap:16px">{img("blog-hitachi.webp", alt="Hitachi Energy customer story")}{img("blog-spot.webp", alt="Spot app article")}</div>
-          {img("creo-linkedin.webp", "phone", "Creo Center LinkedIn")}
-        </div>'''
+    return ""
 
 
 def page(lang):
     t = CONTENT[lang]
     a = "../assets/" if t["path"] else "assets/"
     home = "../" if t["path"] else ""
+    sc = t["showcase"]
     ids = ["work", "about", "experience", "contact"]
 
     langs = "".join(
@@ -127,9 +125,12 @@ def page(lang):
               <a class="btn light" href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn<span class="dot">{ARROW}</span></a>
             </div>
           </div>
-          <div class="portrait">
-            <img src="{a}img/cassandra.webp" alt="{t["photo_alt"]}" width="489" height="489">
-          </div>
+          <a class="showcase" href="#work" aria-label="{t["showcase_label"]}">
+            <span class="sc-label">{t["showcase_label"]}</span>
+            <figure class="sc-web"><div class="browser"><img src="{a}img/peppar-website.webp" alt="pepparcatering.fi" width="1200" height="558"></div><figcaption><b>{sc[0][0]}</b> {sc[0][1]}</figcaption></figure>
+            <figure class="sc-phone"><img src="{a}img/pohjola-instagram.webp" alt="Pohjola-Norden Instagram"><figcaption><b>{sc[1][0]}</b> {sc[1][1]}</figcaption></figure>
+            <figure class="sc-phone"><img src="{a}img/nordjobb-reel.webp" alt="Nordjobb reel"><figcaption><b>{sc[2][0]}</b> {sc[2][1]}</figcaption></figure>
+          </a>
           <div class="pillars">{pillars}</div>
         </div>
       </div>

@@ -126,6 +126,26 @@ p { margin: 0; }
 .pillars div { font-weight: 600; font-size: 0.95rem; }
 .pillars small { display: block; color: var(--merlot-soft); font-weight: 800; font-size: 0.8rem; }
 
+/* Hero work showcase */
+.showcase {
+  position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+  text-decoration: none; color: inherit; width: 100%; max-width: 460px; justify-self: end;
+}
+.showcase figure { margin: 0; position: relative; border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); background: var(--paper); transition: transform .3s; }
+.showcase:hover figure { transform: translateY(-3px); }
+.showcase .sc-web { grid-column: 1 / -1; }
+.showcase .browser { border-radius: 0; box-shadow: none; }
+.showcase .browser img { width: 100%; height: auto; }
+.showcase .browser::before { content: ""; display: block; height: 18px; background: var(--paper) radial-gradient(circle at 12px 9px, #e3b5b0 3.5px, transparent 4.5px), radial-gradient(circle at 26px 9px, #e8d7a9 3.5px, transparent 4.5px), radial-gradient(circle at 40px 9px, #b9d3bf 3.5px, transparent 4.5px); }
+.showcase .sc-phone img { width: 100%; height: 230px; object-fit: cover; object-position: top; }
+.showcase figcaption {
+  position: absolute; left: 10px; bottom: 10px; right: 10px; width: fit-content; max-width: calc(100% - 20px);
+  background: color-mix(in srgb, var(--paper) 94%, transparent); color: var(--ink);
+  font-size: 0.78rem; line-height: 1.3; padding: 6px 12px; border-radius: 999px; box-shadow: 0 4px 14px -6px rgba(0,0,0,.25);
+}
+.showcase figcaption b { color: var(--merlot); }
+.sc-label { position: absolute; top: -30px; left: 2px; font-size: 0.78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--merlot-soft); }
+
 /* Logos */
 .brands { padding: 36px 0 0; }
 .brands .wrap { display: flex; align-items: center; gap: 32px; flex-wrap: wrap; }
@@ -243,7 +263,7 @@ p { margin: 0; }
 /* Tablet */
 @media (max-width: 960px) {
   .hero-card { grid-template-columns: 1fr; }
-  .portrait { width: min(100%, 300px); order: -1; }
+  .showcase { justify-self: start; margin-top: 30px; }
   .pillars { grid-template-columns: repeat(2, 1fr); }
   .head, .direction, .about, .case { grid-template-columns: 1fr; }
   .head .lead { justify-self: start; }
@@ -276,7 +296,7 @@ p { margin: 0; }
   .case-media { min-height: 0; padding: 20px; }
   .case-media.combo { grid-template-columns: 1fr; }
   .case-media.combo .phone { display: none; }
-  .badge { left: 8px; }
+  .showcase .sc-phone img { height: 190px; }
   .job { grid-template-columns: 1fr; gap: 8px; }
   .job .when { justify-self: start; }
 }

@@ -3,13 +3,15 @@
 LINKEDIN = "https://www.linkedin.com/in/cassandra-flykt/"
 EMAIL = None  # e.g. "cassandra@example.com" adds an email button next to LinkedIn
 
-BRANDS = ["Pohjola-Norden", "Creo Center", "Kårkaféerna", "Peppar Catering", "Iittala"]
+BRANDS = ["Pohjola-Norden", "Kårkaféerna", "Peppar Catering", "Iittala"]
 
 TOOLS = "Microsoft 365, Canva, Adobe CC, CapCut"
 
 CONTENT = {
     "en": {
         "path": "",
+        "showcase": [("Rebrand", "Peppar Catering"), ("Social media", "Pohjola-Norden"), ("Recruitment video", "Nordjobb")],
+        "showcase_label": "Recent work",
         "html_lang": "en",
         "label": "EN",
         "title": "Cassandra Flykt – Brand, Communications & Employer Branding",
@@ -53,13 +55,6 @@ CONTENT = {
                 "title": "Making Nordic cooperation feel personal",
                 "body": "At Pohjola-Norden I run communications across social media, newsletters and the website, in Finnish and Swedish. I plan the campaigns, create the content and adapt it for each audience, from students to employers.",
                 "points": ["Instagram, Facebook, LinkedIn and TikTok", "Reels, carousels and stories", "Recruitment content for Nordjobb, like “Why host a nordjobber?”", "Analytics and reporting"],
-            },
-            {
-                "client": "Creo Center",
-                "tags": ["B2B", "LinkedIn", "Content"],
-                "title": "Technical stories in human words",
-                "body": "As Marketing Lead at Creo Center, an engineering company, I was responsible for all marketing: campaigns, content, events and internal and external communications, working closely with senior leadership.",
-                "points": ["Customer stories, like the Hitachi Energy case", "Blog articles, like the launch of the Spot app", "LinkedIn content and carousels", "Marketing processes built with leadership"],
             },
         ],
         "writing_label": "I also write",
@@ -110,6 +105,8 @@ CONTENT = {
     },
     "sv": {
         "path": "sv/",
+        "showcase": [("Ombranding", "Peppar Catering"), ("Sociala medier", "Pohjola-Norden"), ("Rekryteringsvideo", "Nordjobb")],
+        "showcase_label": "Senaste arbeten",
         "html_lang": "sv",
         "label": "SV",
         "title": "Cassandra Flykt – Varumärke, kommunikation & employer branding",
@@ -153,13 +150,6 @@ CONTENT = {
                 "title": "Nordiskt samarbete som känns personligt",
                 "body": "På Pohjola-Norden ansvarar jag för kommunikationen i sociala medier, nyhetsbrev och på webben, på finska och svenska. Jag planerar kampanjerna, skapar innehållet och anpassar det för varje målgrupp, från studerande till arbetsgivare.",
                 "points": ["Instagram, Facebook, LinkedIn och TikTok", "Reels, karuseller och stories", "Rekryteringsinnehåll för Nordjobb, som ”Varför ta emot en nordjobbare?”", "Analys och rapportering"],
-            },
-            {
-                "client": "Creo Center",
-                "tags": ["B2B", "LinkedIn", "Innehåll"],
-                "title": "Tekniska berättelser med mänskliga ord",
-                "body": "Som marknadsföringsansvarig på Creo Center, ett ingenjörsföretag, ansvarade jag för all marknadsföring: kampanjer, innehåll, evenemang samt intern och extern kommunikation, i nära samarbete med ledningen.",
-                "points": ["Kundcase, som Hitachi Energy", "Bloggartiklar, som lanseringen av Spot-appen", "Innehåll och karuseller på LinkedIn", "Marknadsföringsprocesser utvecklade med ledningen"],
             },
         ],
         "writing_label": "Jag skriver också",
@@ -210,6 +200,8 @@ CONTENT = {
     },
     "fi": {
         "path": "fi/",
+        "showcase": [("Uudelleenbrändäys", "Peppar Catering"), ("Some", "Pohjola-Norden"), ("Rekrytointivideo", "Nordjobb")],
+        "showcase_label": "Viimeisimpiä töitä",
         "html_lang": "fi",
         "label": "FI",
         "title": "Cassandra Flykt – Brändi, viestintä & työnantajabrändäys",
@@ -253,13 +245,6 @@ CONTENT = {
                 "title": "Pohjoismaista yhteistyötä henkilökohtaisella otteella",
                 "body": "Pohjola-Nordenissa vastaan viestinnästä somessa, uutiskirjeissä ja verkkosivuilla suomeksi ja ruotsiksi. Suunnittelen kampanjat, tuotan sisällöt ja muokkaan ne jokaiselle kohderyhmälle, opiskelijoista työnantajiin.",
                 "points": ["Instagram, Facebook, LinkedIn ja TikTok", "Reelsit, karusellit ja storyt", "Nordjobbin rekrytointisisällöt, kuten ”Miksi ottaa nordjobbari töihin?”", "Analytiikka ja raportointi"],
-            },
-            {
-                "client": "Creo Center",
-                "tags": ["B2B", "LinkedIn", "Sisällöt"],
-                "title": "Teknisiä tarinoita inhimillisin sanoin",
-                "body": "Creo Centerin markkinointipäällikkönä vastasin insinööriyrityksen koko markkinoinnista: kampanjoista, sisällöistä, tapahtumista sekä sisäisestä ja ulkoisesta viestinnästä tiiviissä yhteistyössä johdon kanssa.",
-                "points": ["Asiakastarinat, kuten Hitachi Energy", "Blogiartikkelit, kuten Spot-sovelluksen lanseeraus", "LinkedIn-sisällöt ja karusellit", "Markkinointiprosessien kehittäminen johdon kanssa"],
             },
         ],
         "writing_label": "Kirjoitan myös",
