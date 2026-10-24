@@ -1,0 +1,32 @@
+<!doctype html>
+<!-- Source for assets/img/share.jpg, the image shown when the site link is shared.
+     Render at 1200x630 (see build/share/render.js). -->
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body { width: 1200px; height: 630px; font-family: "Plus Jakarta Sans", sans-serif;
+         background: #fdfbf7; padding: 36px; }
+  .card { height: 100%; border-radius: 40px; padding: 64px 72px;
+          background: linear-gradient(135deg, #d6e3ef 0%, #e6eef6 55%, #f5efe6 100%);
+          display: flex; align-items: center; justify-content: space-between; gap: 48px; }
+  .hello { color: #7a2f38; font-weight: 700; font-size: 26px; margin-bottom: 14px; }
+  h1 { color: #561d24; font-size: 76px; font-weight: 800; letter-spacing: -0.035em; line-height: 1; }
+  .role { color: #561d24; font-size: 34px; font-weight: 700; line-height: 1.2; margin-top: 22px; letter-spacing: -0.015em; }
+  .role em { font-style: normal; color: #7a2f38; }
+  .langs { margin-top: 30px; display: flex; gap: 10px; }
+  .langs span { background: #561d24; color: #fdfbf7; font-weight: 700; font-size: 20px;
+                padding: 8px 18px; border-radius: 999px; }
+  .photo { flex: none; width: 330px; height: 330px; border-radius: 50%; overflow: hidden;
+           border: 10px solid #fdfbf7; box-shadow: 0 24px 50px -24px rgba(86,29,36,.35); }
+  .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+</style></head>
+<body><div class="card">
+  <div>
+    <p class="hello">Portfolio</p>
+    <h1>Cassandra Flykt</h1>
+    <p class="role">Marketing, communications<br>&amp; <em>brand specialist</em></p>
+    <div class="langs"><span>EN</span><span>SV</span><span>FI</span></div>
+  </div>
+  <div class="photo"><img src="../../assets/img/cassandra.webp" alt=""></div>
+</div></body></html>

@@ -17,7 +17,7 @@ if _csv.exists():
 CONTENT, BRANDS, LINKEDIN, EMAIL = _content.CONTENT, _content.BRANDS, _content.LINKEDIN, _content.EMAIL
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE_URL = ""  # set to e.g. "https://cassandraflykt.com" once the domain is live
+SITE_URL = "https://stamp00.github.io/Cassandra_porfolio"  # change to the custom domain once it is live
 
 ARROW = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>'
 
@@ -95,7 +95,15 @@ def page(lang):
     steps = "".join(f'<div class="step reveal"><h3>{h}</h3><p>{p}</p></div>' for h, p in t["steps"])
     email_btn = f'<a class="btn ghost" href="mailto:{EMAIL}">{t["email_btn"]}<span class="dot">{ARROW}</span></a>' if EMAIL else ""
     canonical = f'<link rel="canonical" href="{SITE_URL}/{t["path"]}">' if SITE_URL else ""
-    og_image = f'<meta property="og:image" content="{SITE_URL}/assets/img/cassandra.webp">' if SITE_URL else ""
+    # Link preview image, made from build/share/card.html
+    og_image = (
+        f'<meta property="og:image" content="{SITE_URL}/assets/img/share.jpg">\n'
+        '  <meta property="og:image:width" content="1200">\n'
+        '  <meta property="og:image:height" content="630">\n'
+        '  <meta property="og:image:alt" content="Cassandra Flykt – Marketing, communications &amp; brand specialist">\n'
+        f'  <meta property="og:url" content="{SITE_URL}/{t["path"]}">\n'
+        '  <meta name="twitter:card" content="summary_large_image">'
+    ) if SITE_URL else ""
 
     return f'''<!doctype html>
 <html lang="{t["html_lang"]}">
