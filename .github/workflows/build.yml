@@ -1,8 +1,11 @@
-# Rebuilds the English, Swedish and Finnish pages whenever the text or design changes,
-# so edits made on github.com go live without running anything locally.
+# Keeps the site in sync with the Google Sheet that holds all the text.
+# Every 10 minutes it downloads the Sheet, rebuilds the English, Swedish and Finnish
+# pages, and commits them if anything changed. It also runs when code is pushed.
 name: Rebuild pages
 
 on:
+  schedule:
+    - cron: "*/10 * * * *"
   push:
     branches: [main]
     paths:
@@ -14,6 +17,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,16 +29,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Download text from Google Sheet
+        run: |
+          id=$(tr -d '[:space:]' < build/sheet_id.txt)
+          curl -fsSL "https://docs.google.com/spreadsheets/d/${id}/export?format=csv&gid=0" -o /tmp/sheet.csv
+          # A private sheet returns a sign-in page instead of CSV
+          if ! head -1 /tmp/sheet.csv | grep -q "^What it is,"; then
+            echo "::error::Could not read the Google Sheet. Check that it is shared as 'Anyone with the link can view'."
+            exit 1
+          fi
+          tr -d '\r' < /tmp/sheet.csv > build/content.csv
       - name: Build pages
         run: python3 build/build.py
       - name: Commit updated pages
         run: |
-          if git diff --quiet; then
-            echo "Pages already up to date"
+          git add build/content.csv index.html sv/index.html fi/index.html
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html sv/index.html fi/index.html
-          git commit -m "Rebuild pages from content.py"
+          git commit -m "Update text from Google Sheet"
           git push

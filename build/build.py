@@ -7,7 +7,14 @@ import sys
 import hashlib
 
 sys.path.insert(0, str(Path(__file__).parent))
-from content import CONTENT, BRANDS, LINKEDIN, EMAIL  # noqa: E402
+import content as _content  # noqa: E402
+import sheet  # noqa: E402
+
+# Text from the Google Sheet (downloaded as CSV) wins over content.py
+_csv = Path(__file__).parent / "content.csv"
+if _csv.exists():
+    sheet.apply_csv(_csv)
+CONTENT, BRANDS, LINKEDIN, EMAIL = _content.CONTENT, _content.BRANDS, _content.LINKEDIN, _content.EMAIL
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = ""  # set to e.g. "https://cassandraflykt.com" once the domain is live
