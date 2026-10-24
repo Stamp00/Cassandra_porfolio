@@ -37,7 +37,6 @@ jobs:
           # A private sheet returns a sign-in page instead of CSV
           if [ "$code" != "200" ] || ! head -1 /tmp/sheet.csv | sed 's/^\xEF\xBB\xBF//' | grep -q "What it is"; then
             echo "::error::Could not read the Google Sheet (HTTP $code). Check that it is shared as 'Anyone with the link can view'. First line: $(head -c 120 /tmp/sheet.csv | tr -d '\n')"
-            echo "::error::Could not read the Google Sheet. Check that it is shared as 'Anyone with the link can view'."
             exit 1
           fi
           tr -d '\r' < /tmp/sheet.csv > build/content.csv
