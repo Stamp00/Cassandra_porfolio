@@ -1,4 +1,5 @@
 What it is,English,Swedish,Finnish,ID (don't edit)
+1. BROWSER TAB & MENU,,,,
 Browser tab title,"Cassandra Flykt – Brand, Communications & Employer Branding","Cassandra Flykt – Varumärke, kommunikation & employer branding","Cassandra Flykt – Brändi, viestintä & työnantajabrändäys",title
 Google search description,"Marketing and communications professional working in Swedish, Finnish and English. Content, campaigns, rebranding and employer branding.","Marknadsförings- och kommunikationsproffs som jobbar på svenska, finska och engelska. Innehåll, kampanjer, ombranding och employer branding.","Markkinoinnin ja viestinnän ammattilainen, joka työskentelee suomeksi, ruotsiksi ja englanniksi. Sisällöt, kampanjat, uudelleenbrändäys ja työnantajabrändäys.",description
 Menu link 1,Work,Arbeten,Työt,nav.1
@@ -6,136 +7,147 @@ Menu link 2,About,Om mig,Minusta,nav.2
 Menu link 3,Experience,Erfarenhet,Kokemus,nav.3
 Menu link 4,Contact,Kontakt,Yhteystiedot,nav.4
 Menu button,Let's talk,Hör av dig,Ota yhteyttä,cta
-Header: greeting,"Hi, I'm Cassandra","Hej, jag heter Cassandra","Hei, olen Cassandra",hello
-Header: headline (text inside <em> is coloured),"Marketing, communications & <em>brand specialist.</em>","Specialist inom marknadsföring, kommunikation & <em>varumärke.</em>","Markkinoinnin, viestinnän & <em>brändin asiantuntija.</em>",h1
-Header: text under headline,"From Instagram reels and campaigns to a full rebrand, I turn what an organisation stands for into marketing people notice, for customers and future colleagues alike. In Swedish, Finnish and English.","Från Instagram-reels och kampanjer till en hel ombranding: jag gör det en organisation står för till marknadsföring som märks, för både kunder och framtida kolleger. På svenska, finska och engelska.","Instagram-reelseistä ja kampanjoista kokonaiseen uudelleenbrändäykseen: teen organisaation arvoista markkinointia, joka huomataan, niin asiakkaiden kuin tulevien työkavereiden keskuudessa. Suomeksi, ruotsiksi ja englanniksi.",tagline
-Header: button,See my work,Se mina arbeten,Katso työni,see_work
-Header: label above work pictures,Recent work,Senaste arbeten,Viimeisimpiä töitä,showcase_label
-Header: picture caption 1: bold part,Rebrand,Ombranding,Uudelleenbrändäys,showcase.1.1
-Header: picture caption 1: rest,Peppar Catering,Peppar Catering,Peppar Catering,showcase.1.2
-Header: picture caption 2: bold part,Social media,Sociala medier,Some,showcase.2.1
-Header: picture caption 2: rest,Pohjola-Norden,Pohjola-Norden,Pohjola-Norden,showcase.2.2
-Header: picture caption 3: bold part,Recruitment video,Rekryteringsvideo,Rekrytointivideo,showcase.3.1
-Header: picture caption 3: rest,Nordjobb,Nordjobb,Nordjobb,showcase.3.2
-Header: four focus areas 1,Brand & culture,Varumärke & kultur,Brändi & kulttuuri,pillars.1
-Header: four focus areas 2,Content & social media,Innehåll & sociala medier,Sisällöt & some,pillars.2
-Header: four focus areas 3,Campaigns & events,Kampanjer & evenemang,Kampanjat & tapahtumat,pillars.3
-Header: four focus areas 4,Employer branding,Employer branding,Työnantajabrändäys,pillars.4
-Brands row: label,Brands I've worked with,Varumärken jag jobbat med,"Brändejä, joiden kanssa olen tehnyt töitä",brands_label
-What I bring: small title,What I bring,Vad jag bidrar med,Mitä tuon mukanani,bring_eyebrow
-What I bring: heading,"Strategy and hands-on work, in one person.",Strategi och praktiskt arbete i en och samma person.,Strategiaa ja tekemistä samassa paketissa.,bring_h2
-What I bring: intro,"I like taking an idea from the first plan to a finished campaign, and I like being close to the people a brand is made of.","Jag tar gärna en idé hela vägen från första plan till färdig kampanj, och jag trivs nära människorna som bygger varumärket.","Vien idean mielelläni ensimmäisestä suunnitelmasta valmiiksi kampanjaksi, ja viihdyn lähellä ihmisiä, joista brändi syntyy.",bring_lead
-What I bring: card 1: title,Brand development,Varumärkesutveckling,Brändin kehittäminen,tiles.1.1
-What I bring: card 1: text,"I led the rebrand of a catering business from start to finish: new name, visual identity, website and photoshoot.","Jag ledde ombrandingen av en cateringverksamhet från början till slut: nytt namn, visuell identitet, webbplats och fotografering.","Johdin catering-liiketoiminnan uudelleenbrändäyksen alusta loppuun: uusi nimi, visuaalinen ilme, verkkosivut ja kuvaukset.",tiles.1.2
-What I bring: card 2: title,"Three languages, one voice","Tre språk, en röst","Kolme kieltä, yksi ääni",tiles.2.1
-What I bring: card 2: text,"I write and create in my native Swedish and in fluent Finnish and English, adapting the message to each audience.","Jag skriver och skapar på mitt modersmål svenska och flytande på finska och engelska, och anpassar budskapet efter målgruppen.","Kirjoitan ja tuotan sisältöä äidinkielelläni ruotsiksi sekä sujuvasti suomeksi ja englanniksi, aina kohderyhmän mukaan.",tiles.2.2
-What I bring: card 3: title,Content for every channel,Innehåll för alla kanaler,Sisältöä joka kanavaan,tiles.3.1
-What I bring: card 3: text,"Posts, carousels, reels, stories, newsletters, blogs, print and websites. Organic and paid.","Inlägg, karuseller, reels, stories, nyhetsbrev, bloggar, trycksaker och webb. Organiskt och betalt.","Postaukset, karusellit, reelsit, storyt, uutiskirjeet, blogit, painotuotteet ja verkkosivut. Orgaanisesti ja maksetusti.",tiles.3.2
-What I bring: card 4: title,Internal & employer communications,Intern kommunikation & arbetsgivarkommunikation,Sisäinen viestintä & työnantajaviestintä,tiles.4.1
-What I bring: card 4: text,"Job postings, internal news and recruitment content, plus hands-on HR support at Kårkaféerna.","Platsannonser, interna nyheter och rekryteringsinnehåll, samt praktiskt stöd i HR-frågor på Kårkaféerna.","Työpaikkailmoitukset, sisäiset uutiset ja rekrytointisisällöt sekä käytännön tukea Kårkaféernan HR-tehtävissä.",tiles.4.2
-What I bring: card 5: title,Events & partnerships,Evenemang & samarbeten,Tapahtumat & kumppanuudet,tiles.5.1
-What I bring: card 5: text,"Coordinating events and Nordic projects with associations, partners and senior leadership.","Koordinering av evenemang och nordiska projekt tillsammans med föreningar, partner och ledning.","Tapahtumien ja pohjoismaisten hankkeiden koordinointia yhdistysten, kumppanien ja johdon kanssa.",tiles.5.2
-Projects: small title,Selected work,Utvalda arbeten,Valittuja töitä,work_eyebrow
-Projects: heading,Projects I'm proud of,Projekt jag är stolt över,"Projekteja, joista olen ylpeä",work_h2
-Projects: intro,A few examples from recent years. Most of my work is in Swedish and Finnish.,Några exempel från de senaste åren. Det mesta av mitt arbete är på svenska och finska.,Muutama esimerkki viime vuosilta. Suurin osa työstäni on suomeksi ja ruotsiksi.,work_lead
+2. HEADER (TOP OF THE PAGE),,,,
+Greeting,"Hi, I'm Cassandra","Hej, jag heter Cassandra","Hei, olen Cassandra",hello
+Headline (text inside <em> is coloured),"Marketing, communications & <em>brand specialist.</em>","Specialist inom marknadsföring, kommunikation & <em>varumärke.</em>","Markkinoinnin, viestinnän & <em>brändin asiantuntija.</em>",h1
+Text under headline,"From Instagram reels and campaigns to a full rebrand, I turn what an organisation stands for into marketing people notice, for customers and future colleagues alike. In Swedish, Finnish and English.","Från Instagram-reels och kampanjer till en hel ombranding: jag gör det en organisation står för till marknadsföring som märks, för både kunder och framtida kolleger. På svenska, finska och engelska.","Instagram-reelseistä ja kampanjoista kokonaiseen uudelleenbrändäykseen: teen organisaation arvoista markkinointia, joka huomataan, niin asiakkaiden kuin tulevien työkavereiden keskuudessa. Suomeksi, ruotsiksi ja englanniksi.",tagline
+Button,See my work,Se mina arbeten,Katso työni,see_work
+Label above work pictures,Recent work,Senaste arbeten,Viimeisimpiä töitä,showcase_label
+Picture caption 1: bold part,Rebrand,Ombranding,Uudelleenbrändäys,showcase.1.1
+Picture caption 1: rest,Peppar Catering,Peppar Catering,Peppar Catering,showcase.1.2
+Picture caption 2: bold part,Social media,Sociala medier,Some,showcase.2.1
+Picture caption 2: rest,Pohjola-Norden,Pohjola-Norden,Pohjola-Norden,showcase.2.2
+Picture caption 3: bold part,Recruitment video,Rekryteringsvideo,Rekrytointivideo,showcase.3.1
+Picture caption 3: rest,Nordjobb,Nordjobb,Nordjobb,showcase.3.2
+Focus area 1,Brand & culture,Varumärke & kultur,Brändi & kulttuuri,pillars.1
+Focus area 2,Content & social media,Innehåll & sociala medier,Sisällöt & some,pillars.2
+Focus area 3,Campaigns & events,Kampanjer & evenemang,Kampanjat & tapahtumat,pillars.3
+Focus area 4,Employer branding,Employer branding,Työnantajabrändäys,pillars.4
+3. BRANDS ROW,,,,
+Label,Brands I've worked with,Varumärken jag jobbat med,"Brändejä, joiden kanssa olen tehnyt töitä",brands_label
+4. WHAT I BRING,,,,
+Small title,What I bring,Vad jag bidrar med,Mitä tuon mukanani,bring_eyebrow
+Heading,"Strategy and hands-on work, in one person.",Strategi och praktiskt arbete i en och samma person.,Strategiaa ja tekemistä samassa paketissa.,bring_h2
+Intro,"I like taking an idea from the first plan to a finished campaign, and I like being close to the people a brand is made of.","Jag tar gärna en idé hela vägen från första plan till färdig kampanj, och jag trivs nära människorna som bygger varumärket.","Vien idean mielelläni ensimmäisestä suunnitelmasta valmiiksi kampanjaksi, ja viihdyn lähellä ihmisiä, joista brändi syntyy.",bring_lead
+Card 1: title,Brand development,Varumärkesutveckling,Brändin kehittäminen,tiles.1.1
+Card 1: text,"I led the rebrand of a catering business from start to finish: new name, visual identity, website and photoshoot.","Jag ledde ombrandingen av en cateringverksamhet från början till slut: nytt namn, visuell identitet, webbplats och fotografering.","Johdin catering-liiketoiminnan uudelleenbrändäyksen alusta loppuun: uusi nimi, visuaalinen ilme, verkkosivut ja kuvaukset.",tiles.1.2
+Card 2: title,"Three languages, one voice","Tre språk, en röst","Kolme kieltä, yksi ääni",tiles.2.1
+Card 2: text,"I write and create in my native Swedish and in fluent Finnish and English, adapting the message to each audience.","Jag skriver och skapar på mitt modersmål svenska och flytande på finska och engelska, och anpassar budskapet efter målgruppen.","Kirjoitan ja tuotan sisältöä äidinkielelläni ruotsiksi sekä sujuvasti suomeksi ja englanniksi, aina kohderyhmän mukaan.",tiles.2.2
+Card 3: title,Content for every channel,Innehåll för alla kanaler,Sisältöä joka kanavaan,tiles.3.1
+Card 3: text,"Posts, carousels, reels, stories, newsletters, blogs, print and websites. Organic and paid.","Inlägg, karuseller, reels, stories, nyhetsbrev, bloggar, trycksaker och webb. Organiskt och betalt.","Postaukset, karusellit, reelsit, storyt, uutiskirjeet, blogit, painotuotteet ja verkkosivut. Orgaanisesti ja maksetusti.",tiles.3.2
+Card 4: title,Internal & employer communications,Intern kommunikation & arbetsgivarkommunikation,Sisäinen viestintä & työnantajaviestintä,tiles.4.1
+Card 4: text,"Job postings, internal news and recruitment content, plus hands-on HR support at Kårkaféerna.","Platsannonser, interna nyheter och rekryteringsinnehåll, samt praktiskt stöd i HR-frågor på Kårkaféerna.","Työpaikkailmoitukset, sisäiset uutiset ja rekrytointisisällöt sekä käytännön tukea Kårkaféernan HR-tehtävissä.",tiles.4.2
+Card 5: title,Events & partnerships,Evenemang & samarbeten,Tapahtumat & kumppanuudet,tiles.5.1
+Card 5: text,"Coordinating events and Nordic projects with associations, partners and senior leadership.","Koordinering av evenemang och nordiska projekt tillsammans med föreningar, partner och ledning.","Tapahtumien ja pohjoismaisten hankkeiden koordinointia yhdistysten, kumppanien ja johdon kanssa.",tiles.5.2
+5. PROJECTS,,,,
+Small title,Selected work,Utvalda arbeten,Valittuja töitä,work_eyebrow
+Heading,Projects I'm proud of,Projekt jag är stolt över,"Projekteja, joista olen ylpeä",work_h2
+Intro,A few examples from recent years. Most of my work is in Swedish and Finnish.,Några exempel från de senaste åren. Det mesta av mitt arbete är på svenska och finska.,Muutama esimerkki viime vuosilta. Suurin osa työstäni on suomeksi ja ruotsiksi.,work_lead
 Project 1: client,Kårkaféerna,Kårkaféerna,Kårkaféerna,cases.1.client
-Project 1: tags 1,Rebrand,Ombranding,Uudelleenbrändäys,cases.1.tags.1
-Project 1: tags 2,Visual identity,Visuell identitet,Visuaalinen ilme,cases.1.tags.2
-Project 1: tags 3,Website,Webbplats,Verkkosivut,cases.1.tags.3
+Project 1: tag 1,Rebrand,Ombranding,Uudelleenbrändäys,cases.1.tags.1
+Project 1: tag 2,Visual identity,Visuell identitet,Visuaalinen ilme,cases.1.tags.2
+Project 1: tag 3,Website,Webbplats,Verkkosivut,cases.1.tags.3
 Project 1: title,"New name, new feel: Peppar Catering","Nytt namn, ny känsla: Peppar Catering","Uusi nimi, uusi tunnelma: Peppar Catering",cases.1.title
-Project 1: body,"I led the rebrand of Kårkaféerna's catering business from the first plan to launch. The goal was a brand that feels as good as the food tastes, with a digital presence to match.","Jag ledde ombrandingen av Kårkaféernas cateringverksamhet från första planen till lansering. Målet var ett varumärke som känns lika bra som maten smakar, och en digital närvaro som matchar.","Johdin Kårkaféernan catering-liiketoiminnan uudelleenbrändäyksen ensimmäisestä suunnitelmasta lanseeraukseen. Tavoitteena oli brändi, joka tuntuu yhtä hyvältä kuin ruoka maistuu, ja siihen sopiva digitaalinen läsnäolo.",cases.1.body
-Project 1: points 1,New name and visual identity,Nytt namn och visuell identitet,Uusi nimi ja visuaalinen ilme,cases.1.points.1
-Project 1: points 2,"New bilingual website, pepparcatering.fi","Ny tvåspråkig webbplats, pepparcatering.fi","Uudet kaksikieliset verkkosivut, pepparcatering.fi",cases.1.points.2
-Project 1: points 3,Photoshoot planned and arranged,Planerade och ordnade en fotografering,Valokuvauksen suunnittelu ja järjestäminen,cases.1.points.3
-Project 1: points 4,Social media relaunched with fresh content,Nystart i sociala medier med nytt innehåll,Somekanavat uuteen nousuun uudella sisällöllä,cases.1.points.4
+Project 1: text,"I led the rebrand of Kårkaféerna's catering business from the first plan to launch. The goal was a brand that feels as good as the food tastes, with a digital presence to match.","Jag ledde ombrandingen av Kårkaféernas cateringverksamhet från första planen till lansering. Målet var ett varumärke som känns lika bra som maten smakar, och en digital närvaro som matchar.","Johdin Kårkaféernan catering-liiketoiminnan uudelleenbrändäyksen ensimmäisestä suunnitelmasta lanseeraukseen. Tavoitteena oli brändi, joka tuntuu yhtä hyvältä kuin ruoka maistuu, ja siihen sopiva digitaalinen läsnäolo.",cases.1.body
+Project 1: bullet 1,New name and visual identity,Nytt namn och visuell identitet,Uusi nimi ja visuaalinen ilme,cases.1.points.1
+Project 1: bullet 2,"New bilingual website, pepparcatering.fi","Ny tvåspråkig webbplats, pepparcatering.fi","Uudet kaksikieliset verkkosivut, pepparcatering.fi",cases.1.points.2
+Project 1: bullet 3,Photoshoot planned and arranged,Planerade och ordnade en fotografering,Valokuvauksen suunnittelu ja järjestäminen,cases.1.points.3
+Project 1: bullet 4,Social media relaunched with fresh content,Nystart i sociala medier med nytt innehåll,Somekanavat uuteen nousuun uudella sisällöllä,cases.1.points.4
 Project 2: client,Pohjola-Norden,Pohjola-Norden,Pohjola-Norden,cases.2.client
-Project 2: tags 1,Social media,Sociala medier,Some,cases.2.tags.1
-Project 2: tags 2,Video,Video,Video,cases.2.tags.2
-Project 2: tags 3,Campaigns,Kampanjer,Kampanjat,cases.2.tags.3
+Project 2: tag 1,Social media,Sociala medier,Some,cases.2.tags.1
+Project 2: tag 2,Video,Video,Video,cases.2.tags.2
+Project 2: tag 3,Campaigns,Kampanjer,Kampanjat,cases.2.tags.3
 Project 2: title,Making Nordic cooperation feel personal,Nordiskt samarbete som känns personligt,Pohjoismaista yhteistyötä henkilökohtaisella otteella,cases.2.title
-Project 2: body,"At Pohjola-Norden I run communications across social media, newsletters and the website, in Finnish and Swedish. I plan the campaigns, create the content and adapt it for each audience, from students to employers.","På Pohjola-Norden ansvarar jag för kommunikationen i sociala medier, nyhetsbrev och på webben, på finska och svenska. Jag planerar kampanjerna, skapar innehållet och anpassar det för varje målgrupp, från studerande till arbetsgivare.","Pohjola-Nordenissa vastaan viestinnästä somessa, uutiskirjeissä ja verkkosivuilla suomeksi ja ruotsiksi. Suunnittelen kampanjat, tuotan sisällöt ja muokkaan ne jokaiselle kohderyhmälle, opiskelijoista työnantajiin.",cases.2.body
-Project 2: points 1,"Instagram, Facebook, LinkedIn and TikTok","Instagram, Facebook, LinkedIn och TikTok","Instagram, Facebook, LinkedIn ja TikTok",cases.2.points.1
-Project 2: points 2,"Reels, carousels and stories","Reels, karuseller och stories","Reelsit, karusellit ja storyt",cases.2.points.2
-Project 2: points 3,"Recruitment content for Nordjobb, like “Why host a nordjobber?”","Rekryteringsinnehåll för Nordjobb, som ”Varför ta emot en nordjobbare?”","Nordjobbin rekrytointisisällöt, kuten ”Miksi ottaa nordjobbari töihin?”",cases.2.points.3
-Project 2: points 4,Analytics and reporting,Analys och rapportering,Analytiikka ja raportointi,cases.2.points.4
+Project 2: text,"At Pohjola-Norden I run communications across social media, newsletters and the website, in Finnish and Swedish. I plan the campaigns, create the content and adapt it for each audience, from students to employers.","På Pohjola-Norden ansvarar jag för kommunikationen i sociala medier, nyhetsbrev och på webben, på finska och svenska. Jag planerar kampanjerna, skapar innehållet och anpassar det för varje målgrupp, från studerande till arbetsgivare.","Pohjola-Nordenissa vastaan viestinnästä somessa, uutiskirjeissä ja verkkosivuilla suomeksi ja ruotsiksi. Suunnittelen kampanjat, tuotan sisällöt ja muokkaan ne jokaiselle kohderyhmälle, opiskelijoista työnantajiin.",cases.2.body
+Project 2: bullet 1,"Instagram, Facebook, LinkedIn and TikTok","Instagram, Facebook, LinkedIn och TikTok","Instagram, Facebook, LinkedIn ja TikTok",cases.2.points.1
+Project 2: bullet 2,"Reels, carousels and stories","Reels, karuseller och stories","Reelsit, karusellit ja storyt",cases.2.points.2
+Project 2: bullet 3,"Recruitment content for Nordjobb, like “Why host a nordjobber?”","Rekryteringsinnehåll för Nordjobb, som ”Varför ta emot en nordjobbare?”","Nordjobbin rekrytointisisällöt, kuten ”Miksi ottaa nordjobbari töihin?”",cases.2.points.3
+Project 2: bullet 4,Analytics and reporting,Analys och rapportering,Analytiikka ja raportointi,cases.2.points.4
 Project 3: client,B2B engineering company,Ingenjörsföretag inom B2B,B2B-insinööriyritys,cases.3.client
-Project 3: tags 1,B2B,B2B,B2B,cases.3.tags.1
-Project 3: tags 2,Content,Innehåll,Sisällöt,cases.3.tags.2
-Project 3: tags 3,Customer stories,Kundcase,Asiakastarinat,cases.3.tags.3
+Project 3: tag 1,B2B,B2B,B2B,cases.3.tags.1
+Project 3: tag 2,Content,Innehåll,Sisällöt,cases.3.tags.2
+Project 3: tag 3,Customer stories,Kundcase,Asiakastarinat,cases.3.tags.3
 Project 3: title,Technical stories in human words,Tekniska berättelser med mänskliga ord,Teknisiä tarinoita inhimillisin sanoin,cases.3.title
-Project 3: body,"As Marketing Lead at an engineering company, I was responsible for all marketing: campaigns, content, events and internal and external communications, working closely with senior leadership.","Som marknadsföringsansvarig på ett ingenjörsföretag ansvarade jag för all marknadsföring: kampanjer, innehåll, evenemang samt intern och extern kommunikation, i nära samarbete med ledningen.","Insinööriyrityksen markkinointipäällikkönä vastasin koko markkinoinnista: kampanjoista, sisällöistä, tapahtumista sekä sisäisestä ja ulkoisesta viestinnästä tiiviissä yhteistyössä johdon kanssa.",cases.3.body
-Project 3: points 1,"Customer stories, like a product development case with Hitachi Energy","Kundcase, som ett produktutvecklingsprojekt med Hitachi Energy","Asiakastarinat, kuten tuotekehitysprojekti Hitachi Energyn kanssa",cases.3.points.1
-Project 3: points 2,"Blog articles, like the launch of a new communication app","Bloggartiklar, som lanseringen av en ny kommunikationsapp","Blogiartikkelit, kuten uuden viestintäsovelluksen lanseeraus",cases.3.points.2
-Project 3: points 3,LinkedIn content and carousels,Innehåll och karuseller på LinkedIn,LinkedIn-sisällöt ja karusellit,cases.3.points.3
-Project 3: points 4,Marketing processes built with leadership,Marknadsföringsprocesser utvecklade med ledningen,Markkinointiprosessien kehittäminen johdon kanssa,cases.3.points.4
-I also write: title,I also write,Jag skriver också,Kirjoitan myös,writing_label
-I also write: item 1,Blogs,Bloggar,Blogit,writing.1
-I also write: item 2,Internal & external news,Interna & externa nyheter,Sisäiset & ulkoiset uutiset,writing.2
-I also write: item 3,Social posts,Inlägg i sociala medier,Somepostaukset,writing.3
-I also write: item 4,Print & ads,Trycksaker & annonser,Painotuotteet & mainokset,writing.4
-I also write: item 5,Job postings,Platsannonser,Työpaikkailmoitukset,writing.5
-I also write: item 6,Product descriptions,Produktbeskrivningar,Tuotekuvaukset,writing.6
-I also write: item 7,Instructions,Instruktioner,Ohjeet,writing.7
-I also write: item 8,Website content,Webbinnehåll,Verkkosivusisällöt,writing.8
-Where I'm heading: small title,Where I'm heading,Vart jag är på väg,Mihin olen menossa,dir_eyebrow
-Where I'm heading: quote,"Great brands start on the inside. I want to help companies show what it's really like to work there, and make the right people want to join.","Starka varumärken börjar på insidan. Jag vill hjälpa företag att visa hur det verkligen är att jobba där, och få rätt människor att vilja vara med.","Vahvat brändit syntyvät sisältä päin. Haluan auttaa yrityksiä näyttämään, millaista niissä oikeasti on tehdä töitä, ja saada oikeat ihmiset haluamaan mukaan.",dir_quote
-Where I'm heading: point 1: title,Culture into content,Kultur blir innehåll,Kulttuurista sisällöksi,dir_points.1.1
-Where I'm heading: point 1: text,"I know how to find the stories inside an organisation and turn them into posts, videos and articles people actually read.","Jag vet hur man hittar berättelserna i en organisation och gör dem till inlägg, videor och artiklar som folk faktiskt läser.","Osaan löytää organisaation tarinat ja tehdä niistä postauksia, videoita ja artikkeleita, joita ihmiset oikeasti lukevat.",dir_points.1.2
-Where I'm heading: point 2: title,Recruitment that feels human,Rekrytering med mänsklig ton,Inhimillistä rekrytointia,dir_points.2.1
-Where I'm heading: point 2: text,"I've written job postings and recruitment content that speak to people, not just list requirements.","Jag har skrivit platsannonser och rekryteringsinnehåll som talar till människor, inte bara listar krav.","Olen kirjoittanut työpaikkailmoituksia ja rekrytointisisältöjä, jotka puhuttelevat ihmisiä eivätkä vain luettele vaatimuksia.",dir_points.2.2
-Where I'm heading: point 3: title,"Inside and outside, aligned",Insida och utsida i takt,Sisä- ja ulkopuoli samassa tahdissa,dir_points.3.1
-Where I'm heading: point 3: text,Working with internal communications and HR taught me that a message only works if it's true on the inside too.,Arbetet med intern kommunikation och HR har lärt mig att ett budskap bara fungerar om det också stämmer på insidan.,"Sisäisen viestinnän ja HR:n parissa olen oppinut, että viesti toimii vain, jos se pitää paikkansa myös sisällä.",dir_points.3.2
-Experience: small title,Experience,Erfarenhet,Kokemus,exp_eyebrow
-Experience: heading,Where I've worked,Där jag har jobbat,Työhistoriani,exp_h2
-Experience: job 1: job title,Communications and Events Coordinator,Kommunikations- och evenemangskoordinator,Viestintä- ja tapahtumakoordinaattori,jobs.1.1
-Experience: job 1: employer,Pohjola-Norden,Pohjola-Norden,Pohjola-Norden,jobs.1.2
-Experience: job 1: dates,Mar 2026 – now,mars 2026 – nu,maalis 2026 – nyt,jobs.1.3
-Experience: job 1: description,"Communications and content across social media, newsletters and the website in Finnish and Swedish. Campaigns, events and Nordic projects with local associations and partners.","Kommunikation och innehåll i sociala medier, nyhetsbrev och på webben, på finska och svenska. Kampanjer, evenemang och nordiska projekt med lokalföreningar och partner.","Viestintä ja sisällöt somessa, uutiskirjeissä ja verkkosivuilla suomeksi ja ruotsiksi. Kampanjat, tapahtumat ja pohjoismaiset hankkeet paikallisyhdistysten ja kumppanien kanssa.",jobs.1.4
-Experience: job 2: job title,Marketing Lead,Marknadsföringsansvarig,Markkinointipäällikkö,jobs.2.1
-Experience: job 2: employer,Creo Center,Creo Center,Creo Center,jobs.2.2
-Experience: job 2: dates,Sep 2025 – Feb 2026,sep 2025 – feb 2026,syys 2025 – helmi 2026,jobs.2.3
-Experience: job 2: description,"Responsible for all marketing: campaigns, content, materials, events and internal and external communications, working closely with senior leadership.","Ansvarade för all marknadsföring: kampanjer, innehåll, material, evenemang samt intern och extern kommunikation, i nära samarbete med ledningen.","Vastasin koko markkinoinnista: kampanjat, sisällöt, materiaalit, tapahtumat sekä sisäinen ja ulkoinen viestintä tiiviissä yhteistyössä johdon kanssa.",jobs.2.4
-Experience: job 3: job title,Marketing Coordinator,Marknadsföringskoordinator,Markkinointikoordinaattori,jobs.3.1
-Experience: job 3: employer,Kårkaféerna,Kårkaféerna,Kårkaféerna,jobs.3.2
-Experience: job 3: dates,Aug 2022 – Aug 2025,aug 2022 – aug 2025,elo 2022 – elo 2025,jobs.3.3
-Experience: job 3: description,"Marketing, social media and brand development for a restaurant organisation. Led the catering rebrand and supported HR activities.","Marknadsföring, sociala medier och varumärkesutveckling för en restaurangorganisation. Ledde ombrandingen av cateringen och stödde HR-arbetet.","Ravintolaorganisaation markkinointi, some ja brändin kehittäminen. Johdin cateringin uudelleenbrändäyksen ja tuin HR-toimintoja.",jobs.3.4
-Experience: job 4: job title,Sales Associate,Försäljare,Myyjä,jobs.4.1
-Experience: job 4: employer,Iittala,Iittala,Iittala,jobs.4.2
-Experience: job 4: dates,Jun 2023 – Jul 2024,juni 2023 – juli 2024,kesä 2023 – heinä 2024,jobs.4.3
-Experience: job 4: description,"Sales, customer service and visual merchandising at the Turku store.","Försäljning, kundservice och visual merchandising i butiken i Åbo.","Myynti, asiakaspalvelu ja visual merchandising Turun myymälässä.",jobs.4.4
-Experience: job 5: job title,Digital Marketing Intern,"Praktikant, digital marknadsföring",Digitaalisen markkinoinnin harjoittelija,jobs.5.1
-Experience: job 5: employer,Haven BX,Haven BX,Haven BX,jobs.5.2
-Experience: job 5: dates,May – Jul 2022,maj – juli 2022,touko – heinä 2022,jobs.5.3
-Experience: job 5: description,Website content and a social media action plan as part of my bachelor's thesis.,Webbinnehåll och en handlingsplan för sociala medier som en del av mitt examensarbete.,Verkkosivusisältöjä ja somen toimintasuunnitelma osana opinnäytetyötäni.,jobs.5.4
-Experience: last line,"Earlier: customer service at Motonet, 2018–2022.","Tidigare: kundservice på Motonet, 2018–2022.",Aiemmin: asiakaspalvelua Motonetilla 2018–2022.,earlier
-About: small title,About me,Om mig,Minusta,about_eyebrow
-About: heading,"Creative, organised and proactive.","Kreativ, organiserad och proaktiv.","Luova, järjestelmällinen ja oma-aloitteinen.",about_h2
-About: paragraph 1,"I'm a marketing and communications professional based in Finland, with a background in brand development, content, events and premium brand retail. I love combining strategic thinking with hands-on work, and I'm happiest in fast-moving teams where I can take initiative and turn ideas into reality.","Jag jobbar med marknadsföring och kommunikation i Finland och har bakgrund inom varumärkesutveckling, innehåll, evenemang och detaljhandel med premiumvarumärken. Jag älskar att kombinera strategiskt tänkande med praktiskt arbete och trivs bäst i team med högt tempo, där jag kan ta initiativ och förvandla idéer till verklighet.","Olen markkinoinnin ja viestinnän ammattilainen, ja taustani on brändin kehittämisessä, sisällöntuotannossa, tapahtumissa ja premium-brändien myymälätyössä. Yhdistän mielelläni strategisen ajattelun käytännön tekemiseen ja viihdyn parhaiten vauhdikkaissa tiimeissä, joissa voin tarttua toimeen ja muuttaa ideat todeksi.",about.1
-About: paragraph 2,"I'm especially interested in how brands connect with people, culture and communities. After working with marketing across the Nordics, my next step is helping organisations build brands that people want to be part of, as customers and as colleagues.","Jag är särskilt intresserad av hur varumärken knyter an till människor, kultur och gemenskap. Efter att ha jobbat med marknadsföring runt om i Norden vill jag nu hjälpa organisationer att bygga varumärken som människor vill vara en del av, både som kunder och som kolleger.","Minua kiinnostaa erityisesti, miten brändit kohtaavat ihmiset, kulttuurin ja yhteisöt. Tehtyäni markkinointia eri puolilla Pohjoismaita haluan nyt auttaa organisaatioita rakentamaan brändejä, joihin ihmiset haluavat kuulua, niin asiakkaina kuin työkavereina.",about.2
-About: info box 1: title,Education,Utbildning,Koulutus,facts.1.1
-About: info box 1: text,"MSc Economics & International Business, Åbo Akademi<br>BBA, Novia · Exchange at NHH, Norway","Ekonomie magister, internationell affärsverksamhet, Åbo Akademi<br>Tradenom, Novia · Utbyte vid NHH, Norge","KTM, kansainvälinen liiketoiminta, Åbo Akademi<br>Tradenomi, Novia · Vaihto-opinnot NHH:ssa, Norja",facts.1.2
-About: info box 2: title,Languages,Språk,Kielet,facts.2.1
-About: info box 2: text,"Swedish (native), Finnish and English (fluent), Norwegian (intermediate), German (basic)","Svenska (modersmål), finska och engelska (flytande), norska (medel), tyska (grund)","Ruotsi (äidinkieli), suomi ja englanti (sujuva), norja (keskitaso), saksa (perusteet)",facts.2.2
-About: info box 3: title,Tools,Verktyg,Työkalut,facts.3.1
-About: info box 3: text,"Microsoft 365, Canva, Adobe CC, CapCut","Microsoft 365, Canva, Adobe CC, CapCut","Microsoft 365, Canva, Adobe CC, CapCut",facts.3.2
-About: info box 4: title,Strengths,Styrkor,Vahvuudet,facts.4.1
-About: info box 4: text,"Campaign planning, stakeholder collaboration, project coordination","Kampanjplanering, samarbete med intressenter, projektkoordinering","Kampanjasuunnittelu, sidosryhmäyhteistyö, projektikoordinointi",facts.4.2
-How I work: small title,How I work,Så jobbar jag,Näin työskentelen,proc_eyebrow
-How I work: heading,From idea to impact,Från idé till resultat,Ideasta tuloksiin,proc_h2
-How I work: step 1: title,Listen,Lyssna,Kuuntele,steps.1.1
-How I work: step 1: text,"I start by understanding the people, the goals and what makes the organisation different.","Jag börjar med att förstå människorna, målen och vad som gör organisationen unik.","Aloitan ymmärtämällä ihmiset, tavoitteet ja sen, mikä tekee organisaatiosta erilaisen.",steps.1.2
-How I work: step 2: title,Plan,Planera,Suunnittele,steps.2.1
-How I work: step 2: text,"Clear messages, the right channels and a plan everyone can follow.","Tydliga budskap, rätt kanaler och en plan som alla kan följa.","Selkeät viestit, oikeat kanavat ja suunnitelma, jota kaikki voivat seurata.",steps.2.2
-How I work: step 3: title,Create,Skapa,Luo,steps.3.1
-How I work: step 3: text,"Content that looks good, sounds human and fits the brand.","Innehåll som ser bra ut, låter mänskligt och passar varumärket.","Sisältöä, joka näyttää hyvältä, kuulostaa inhimilliseltä ja sopii brändiin.",steps.3.2
-How I work: step 4: title,Measure,Mäta,Mittaa,steps.4.1
-How I work: step 4: text,"I follow the numbers, learn from them and keep improving.","Jag följer siffrorna, lär mig av dem och fortsätter förbättra.","Seuraan lukuja, opin niistä ja kehitän jatkuvasti.",steps.4.2
-Contact: small title,Contact,Kontakt,Yhteystiedot,contact_eyebrow
-Contact: heading,Let's build a brand people want to belong to.,Låt oss bygga ett varumärke man vill höra till.,"Rakennetaan brändi, johon halutaan kuulua.",contact_h2
-Contact: text,"I'm open to roles in brand, communications and employer branding. The easiest way to reach me is on LinkedIn.","Jag är öppen för roller inom varumärke, kommunikation och employer branding. Enklast når du mig på LinkedIn.","Olen avoin brändin, viestinnän ja työnantajabrändäyksen rooleille. Helpoimmin tavoitat minut LinkedInissä.",contact_lead
-Contact: LinkedIn button,Message me on LinkedIn,Skriv till mig på LinkedIn,Lähetä viesti LinkedInissä,linkedin_btn
-Contact: email button,Send an email,Skicka e-post,Lähetä sähköpostia,email_btn
+Project 3: text,"As Marketing Lead at an engineering company, I was responsible for all marketing: campaigns, content, events and internal and external communications, working closely with senior leadership.","Som marknadsföringsansvarig på ett ingenjörsföretag ansvarade jag för all marknadsföring: kampanjer, innehåll, evenemang samt intern och extern kommunikation, i nära samarbete med ledningen.","Insinööriyrityksen markkinointipäällikkönä vastasin koko markkinoinnista: kampanjoista, sisällöistä, tapahtumista sekä sisäisestä ja ulkoisesta viestinnästä tiiviissä yhteistyössä johdon kanssa.",cases.3.body
+Project 3: bullet 1,"Customer stories, like a product development case with Hitachi Energy","Kundcase, som ett produktutvecklingsprojekt med Hitachi Energy","Asiakastarinat, kuten tuotekehitysprojekti Hitachi Energyn kanssa",cases.3.points.1
+Project 3: bullet 2,"Blog articles, like the launch of a new communication app","Bloggartiklar, som lanseringen av en ny kommunikationsapp","Blogiartikkelit, kuten uuden viestintäsovelluksen lanseeraus",cases.3.points.2
+Project 3: bullet 3,LinkedIn content and carousels,Innehåll och karuseller på LinkedIn,LinkedIn-sisällöt ja karusellit,cases.3.points.3
+Project 3: bullet 4,Marketing processes built with leadership,Marknadsföringsprocesser utvecklade med ledningen,Markkinointiprosessien kehittäminen johdon kanssa,cases.3.points.4
+6. I ALSO WRITE,,,,
+Title,I also write,Jag skriver också,Kirjoitan myös,writing_label
+Item 1,Blogs,Bloggar,Blogit,writing.1
+Item 2,Internal & external news,Interna & externa nyheter,Sisäiset & ulkoiset uutiset,writing.2
+Item 3,Social posts,Inlägg i sociala medier,Somepostaukset,writing.3
+Item 4,Print & ads,Trycksaker & annonser,Painotuotteet & mainokset,writing.4
+Item 5,Job postings,Platsannonser,Työpaikkailmoitukset,writing.5
+Item 6,Product descriptions,Produktbeskrivningar,Tuotekuvaukset,writing.6
+Item 7,Instructions,Instruktioner,Ohjeet,writing.7
+Item 8,Website content,Webbinnehåll,Verkkosivusisällöt,writing.8
+7. WHERE I'M HEADING,,,,
+Small title,Where I'm heading,Vart jag är på väg,Mihin olen menossa,dir_eyebrow
+Quote,"Great brands start on the inside. I want to help companies show what it's really like to work there, and make the right people want to join.","Starka varumärken börjar på insidan. Jag vill hjälpa företag att visa hur det verkligen är att jobba där, och få rätt människor att vilja vara med.","Vahvat brändit syntyvät sisältä päin. Haluan auttaa yrityksiä näyttämään, millaista niissä oikeasti on tehdä töitä, ja saada oikeat ihmiset haluamaan mukaan.",dir_quote
+Point 1: title,Culture into content,Kultur blir innehåll,Kulttuurista sisällöksi,dir_points.1.1
+Point 1: text,"I know how to find the stories inside an organisation and turn them into posts, videos and articles people actually read.","Jag vet hur man hittar berättelserna i en organisation och gör dem till inlägg, videor och artiklar som folk faktiskt läser.","Osaan löytää organisaation tarinat ja tehdä niistä postauksia, videoita ja artikkeleita, joita ihmiset oikeasti lukevat.",dir_points.1.2
+Point 2: title,Recruitment that feels human,Rekrytering med mänsklig ton,Inhimillistä rekrytointia,dir_points.2.1
+Point 2: text,"I've written job postings and recruitment content that speak to people, not just list requirements.","Jag har skrivit platsannonser och rekryteringsinnehåll som talar till människor, inte bara listar krav.","Olen kirjoittanut työpaikkailmoituksia ja rekrytointisisältöjä, jotka puhuttelevat ihmisiä eivätkä vain luettele vaatimuksia.",dir_points.2.2
+Point 3: title,"Inside and outside, aligned",Insida och utsida i takt,Sisä- ja ulkopuoli samassa tahdissa,dir_points.3.1
+Point 3: text,Working with internal communications and HR taught me that a message only works if it's true on the inside too.,Arbetet med intern kommunikation och HR har lärt mig att ett budskap bara fungerar om det också stämmer på insidan.,"Sisäisen viestinnän ja HR:n parissa olen oppinut, että viesti toimii vain, jos se pitää paikkansa myös sisällä.",dir_points.3.2
+8. EXPERIENCE,,,,
+Small title,Experience,Erfarenhet,Kokemus,exp_eyebrow
+Heading,Where I've worked,Där jag har jobbat,Työhistoriani,exp_h2
+Job 1: job title,Communications and Events Coordinator,Kommunikations- och evenemangskoordinator,Viestintä- ja tapahtumakoordinaattori,jobs.1.1
+Job 1: employer,Pohjola-Norden,Pohjola-Norden,Pohjola-Norden,jobs.1.2
+Job 1: dates,Mar 2026 – now,mars 2026 – nu,maalis 2026 – nyt,jobs.1.3
+Job 1: description,"Communications and content across social media, newsletters and the website in Finnish and Swedish. Campaigns, events and Nordic projects with local associations and partners.","Kommunikation och innehåll i sociala medier, nyhetsbrev och på webben, på finska och svenska. Kampanjer, evenemang och nordiska projekt med lokalföreningar och partner.","Viestintä ja sisällöt somessa, uutiskirjeissä ja verkkosivuilla suomeksi ja ruotsiksi. Kampanjat, tapahtumat ja pohjoismaiset hankkeet paikallisyhdistysten ja kumppanien kanssa.",jobs.1.4
+Job 2: job title,Marketing Lead,Marknadsföringsansvarig,Markkinointipäällikkö,jobs.2.1
+Job 2: employer,Creo Center,Creo Center,Creo Center,jobs.2.2
+Job 2: dates,Sep 2025 – Feb 2026,sep 2025 – feb 2026,syys 2025 – helmi 2026,jobs.2.3
+Job 2: description,"Responsible for all marketing: campaigns, content, materials, events and internal and external communications, working closely with senior leadership.","Ansvarade för all marknadsföring: kampanjer, innehåll, material, evenemang samt intern och extern kommunikation, i nära samarbete med ledningen.","Vastasin koko markkinoinnista: kampanjat, sisällöt, materiaalit, tapahtumat sekä sisäinen ja ulkoinen viestintä tiiviissä yhteistyössä johdon kanssa.",jobs.2.4
+Job 3: job title,Marketing Coordinator,Marknadsföringskoordinator,Markkinointikoordinaattori,jobs.3.1
+Job 3: employer,Kårkaféerna,Kårkaféerna,Kårkaféerna,jobs.3.2
+Job 3: dates,Aug 2022 – Aug 2025,aug 2022 – aug 2025,elo 2022 – elo 2025,jobs.3.3
+Job 3: description,"Marketing, social media and brand development for a restaurant organisation. Led the catering rebrand and supported HR activities.","Marknadsföring, sociala medier och varumärkesutveckling för en restaurangorganisation. Ledde ombrandingen av cateringen och stödde HR-arbetet.","Ravintolaorganisaation markkinointi, some ja brändin kehittäminen. Johdin cateringin uudelleenbrändäyksen ja tuin HR-toimintoja.",jobs.3.4
+Job 4: job title,Sales Associate,Försäljare,Myyjä,jobs.4.1
+Job 4: employer,Iittala,Iittala,Iittala,jobs.4.2
+Job 4: dates,Jun 2023 – Jul 2024,juni 2023 – juli 2024,kesä 2023 – heinä 2024,jobs.4.3
+Job 4: description,"Sales, customer service and visual merchandising at the Turku store.","Försäljning, kundservice och visual merchandising i butiken i Åbo.","Myynti, asiakaspalvelu ja visual merchandising Turun myymälässä.",jobs.4.4
+Job 5: job title,Digital Marketing Intern,"Praktikant, digital marknadsföring",Digitaalisen markkinoinnin harjoittelija,jobs.5.1
+Job 5: employer,Haven BX,Haven BX,Haven BX,jobs.5.2
+Job 5: dates,May – Jul 2022,maj – juli 2022,touko – heinä 2022,jobs.5.3
+Job 5: description,Website content and a social media action plan as part of my bachelor's thesis.,Webbinnehåll och en handlingsplan för sociala medier som en del av mitt examensarbete.,Verkkosivusisältöjä ja somen toimintasuunnitelma osana opinnäytetyötäni.,jobs.5.4
+Last line,"Earlier: customer service at Motonet, 2018–2022.","Tidigare: kundservice på Motonet, 2018–2022.",Aiemmin: asiakaspalvelua Motonetilla 2018–2022.,earlier
+9. ABOUT ME,,,,
+Small title,About me,Om mig,Minusta,about_eyebrow
+Heading,"Creative, organised and proactive.","Kreativ, organiserad och proaktiv.","Luova, järjestelmällinen ja oma-aloitteinen.",about_h2
+Paragraph 1,"I'm a marketing and communications professional based in Finland, with a background in brand development, content, events and premium brand retail. I love combining strategic thinking with hands-on work, and I'm happiest in fast-moving teams where I can take initiative and turn ideas into reality.","Jag jobbar med marknadsföring och kommunikation i Finland och har bakgrund inom varumärkesutveckling, innehåll, evenemang och detaljhandel med premiumvarumärken. Jag älskar att kombinera strategiskt tänkande med praktiskt arbete och trivs bäst i team med högt tempo, där jag kan ta initiativ och förvandla idéer till verklighet.","Olen markkinoinnin ja viestinnän ammattilainen, ja taustani on brändin kehittämisessä, sisällöntuotannossa, tapahtumissa ja premium-brändien myymälätyössä. Yhdistän mielelläni strategisen ajattelun käytännön tekemiseen ja viihdyn parhaiten vauhdikkaissa tiimeissä, joissa voin tarttua toimeen ja muuttaa ideat todeksi.",about.1
+Paragraph 2,"I'm especially interested in how brands connect with people, culture and communities. After working with marketing across the Nordics, my next step is helping organisations build brands that people want to be part of, as customers and as colleagues.","Jag är särskilt intresserad av hur varumärken knyter an till människor, kultur och gemenskap. Efter att ha jobbat med marknadsföring runt om i Norden vill jag nu hjälpa organisationer att bygga varumärken som människor vill vara en del av, både som kunder och som kolleger.","Minua kiinnostaa erityisesti, miten brändit kohtaavat ihmiset, kulttuurin ja yhteisöt. Tehtyäni markkinointia eri puolilla Pohjoismaita haluan nyt auttaa organisaatioita rakentamaan brändejä, joihin ihmiset haluavat kuulua, niin asiakkaina kuin työkavereina.",about.2
+Info box 1: title,Education,Utbildning,Koulutus,facts.1.1
+Info box 1: text,"MSc Economics & International Business, Åbo Akademi<br>BBA, Novia · Exchange at NHH, Norway","Ekonomie magister, internationell affärsverksamhet, Åbo Akademi<br>Tradenom, Novia · Utbyte vid NHH, Norge","KTM, kansainvälinen liiketoiminta, Åbo Akademi<br>Tradenomi, Novia · Vaihto-opinnot NHH:ssa, Norja",facts.1.2
+Info box 2: title,Languages,Språk,Kielet,facts.2.1
+Info box 2: text,"Swedish (native), Finnish and English (fluent), Norwegian (intermediate), German (basic)","Svenska (modersmål), finska och engelska (flytande), norska (medel), tyska (grund)","Ruotsi (äidinkieli), suomi ja englanti (sujuva), norja (keskitaso), saksa (perusteet)",facts.2.2
+Info box 3: title,Tools,Verktyg,Työkalut,facts.3.1
+Info box 3: text,"Microsoft 365, Canva, Adobe CC, CapCut","Microsoft 365, Canva, Adobe CC, CapCut","Microsoft 365, Canva, Adobe CC, CapCut",facts.3.2
+Info box 4: title,Strengths,Styrkor,Vahvuudet,facts.4.1
+Info box 4: text,"Campaign planning, stakeholder collaboration, project coordination","Kampanjplanering, samarbete med intressenter, projektkoordinering","Kampanjasuunnittelu, sidosryhmäyhteistyö, projektikoordinointi",facts.4.2
+10. HOW I WORK,,,,
+Small title,How I work,Så jobbar jag,Näin työskentelen,proc_eyebrow
+Heading,From idea to impact,Från idé till resultat,Ideasta tuloksiin,proc_h2
+Step 1: title,Listen,Lyssna,Kuuntele,steps.1.1
+Step 1: text,"I start by understanding the people, the goals and what makes the organisation different.","Jag börjar med att förstå människorna, målen och vad som gör organisationen unik.","Aloitan ymmärtämällä ihmiset, tavoitteet ja sen, mikä tekee organisaatiosta erilaisen.",steps.1.2
+Step 2: title,Plan,Planera,Suunnittele,steps.2.1
+Step 2: text,"Clear messages, the right channels and a plan everyone can follow.","Tydliga budskap, rätt kanaler och en plan som alla kan följa.","Selkeät viestit, oikeat kanavat ja suunnitelma, jota kaikki voivat seurata.",steps.2.2
+Step 3: title,Create,Skapa,Luo,steps.3.1
+Step 3: text,"Content that looks good, sounds human and fits the brand.","Innehåll som ser bra ut, låter mänskligt och passar varumärket.","Sisältöä, joka näyttää hyvältä, kuulostaa inhimilliseltä ja sopii brändiin.",steps.3.2
+Step 4: title,Measure,Mäta,Mittaa,steps.4.1
+Step 4: text,"I follow the numbers, learn from them and keep improving.","Jag följer siffrorna, lär mig av dem och fortsätter förbättra.","Seuraan lukuja, opin niistä ja kehitän jatkuvasti.",steps.4.2
+11. CONTACT & FOOTER,,,,
+Small title,Contact,Kontakt,Yhteystiedot,contact_eyebrow
+Heading,Let's build a brand people want to belong to.,Låt oss bygga ett varumärke man vill höra till.,"Rakennetaan brändi, johon halutaan kuulua.",contact_h2
+Text,"I'm open to roles in brand, communications and employer branding. The easiest way to reach me is on LinkedIn.","Jag är öppen för roller inom varumärke, kommunikation och employer branding. Enklast når du mig på LinkedIn.","Olen avoin brändin, viestinnän ja työnantajabrändäyksen rooleille. Helpoimmin tavoitat minut LinkedInissä.",contact_lead
+LinkedIn button,Message me on LinkedIn,Skriv till mig på LinkedIn,Lähetä viesti LinkedInissä,linkedin_btn
+Email button,Send an email,Skicka e-post,Lähetä sähköpostia,email_btn
 Footer text,Made with care in Finland,Byggd med omsorg i Finland,Tehty huolella Suomessa,footer
-Settings: LinkedIn link,https://www.linkedin.com/in/cassandra-flykt/,,,settings.linkedin
-Settings: email (leave empty to hide),,,,settings.email
-Settings: brands row (comma separated),"Pohjola-Norden, Kårkaféerna, Peppar Catering, Iittala",,,settings.brands
+12. SETTINGS,,,,
+LinkedIn link,https://www.linkedin.com/in/cassandra-flykt/,,,settings.linkedin
+Email (leave empty to hide),,,,settings.email
+Brands row (comma separated),"Pohjola-Norden, Kårkaféerna, Peppar Catering, Iittala",,,settings.brands
